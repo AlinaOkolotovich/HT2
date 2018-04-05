@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.epam.ta.GitHubAutomationTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 76.047 sec <<< FAILURE! - in com.epam.ta.GitHubAutomationTest
+oneCanDeleteRepository(com.epam.ta.GitHubAutomationTest)  Time elapsed: 16.154 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //input[@id='repository_name']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:01:39.354Z'
+System info: host: 'MacBook-Pro-tp-user2.local', ip: 'fe80:0:0:0:1c7b:21cb:c5eb:b981%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.12.6', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 59.0.2, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 43545, moz:profile: /var/folders/dz/97v38d613xg..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: MAC, platformName: MAC, platformVersion: 16.7.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 9eef6933-2e3e-f949-bef7-a7d30935e093
+*** Element info: {Using=xpath, value=//input[@id='repository_name']}
+	at com.epam.ta.GitHubAutomationTest.oneCanDeleteRepository(GitHubAutomationTest.java:41)
+
